@@ -1,0 +1,48 @@
+{
+    // Используйте IntelliSense, чтобы узнать о возможных атрибутах.
+    // Наведите указатель мыши, чтобы просмотреть описания существующих атрибутов.
+    // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "driver-app",
+            "cwd": "apps\\driver-app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "driver-app (profile mode)",
+            "cwd": "apps\\driver-app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "driver-app (release mode)",
+            "cwd": "apps\\driver-app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "rider-app",
+            "cwd": "apps\\rider-app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "rider-app (profile mode)",
+            "cwd": "apps\\rider-app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "rider-app (release mode)",
+            "cwd": "apps\\rider-app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+query GetHistory {
+    completed: orders(filter: { status: {eq: Finished }}) {
+        ...historyOrderItem
+    }
+    canceled: orders(filter: { status: {eq: RiderCanceled }}) {
+        ...historyOrderItem
+    }
+    booked: orders(filter: { status: { eq: Booked}}) {
+        ...historyOrderItem
+    }
+}
+
+mutation CancelBooking($id: ID!) {
+    cancelBooking(id: $id) {
+      id
+    }
+}

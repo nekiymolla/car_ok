@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "671046754566",
+    "project_id": "jetu-a8565",
+    "storage_bucket": "jetu-a8565.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:671046754566:android:65a2cab921c15a02adfe87",
+        "android_client_info": {
+          "package_name": "com.ridy.taxi.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "671046754566-fpkgam379071pclqsqq4g2a120183coa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5yZF9XpdVTyoZE7OgS1oyUUycyOZfgIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "671046754566-fpkgam379071pclqsqq4g2a120183coa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
